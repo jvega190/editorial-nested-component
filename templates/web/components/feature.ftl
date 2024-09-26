@@ -10,6 +10,8 @@
     <@crafter.div $field="body_html">
       ${contentModel.body_html}
     </@crafter.div>
+    
+    <@crafter.renderComponentCollection $field="quote_o" />
   </div>
 </@crafter.article>
 <!-- /Feature Component -->
